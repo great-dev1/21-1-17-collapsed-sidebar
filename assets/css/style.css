@@ -1,0 +1,117 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.sidebar {
+  width: 280px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  font-family: Roboto;
+  background-color: #311D40;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+/* Sidebar header */
+.sidebar-header {
+  margin-bottom: 12px;
+}
+
+.open-btn,
+.close-btn {
+  position: absolute;
+  z-index: 1;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.open-btn {
+  top: 8px;
+  left: 17px;
+  font-size: 20px;
+  visibility: hidden;
+}
+
+.close-btn {
+  top: 0;
+  right: 15px;
+  font-size: 30px;
+}
+
+.side-link {
+  display: block;
+  min-width: 280px;
+  padding: 10px 10px 10px 16px;
+  border-left: 4px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: #DCE3E6;
+  transition: 0.5s;
+}
+
+.side-link:hover {
+  color: #DCE3E6;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 13px;
+  border-radius: 50%;
+}
+
+.user-name {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.company-name {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Sidebar main */
+.sidebar-main .side-link:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-main .side-link:visited {
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-main .side-link:hover>.svg-icon {
+  fill: white;
+  color: white;
+  transition: 0.3s;
+}
+
+.svg-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  margin-right: 16px;
+  overflow: hidden;
+  font-size: 24px;
+  fill: grey;
+  color: grey;
+}
+
+.link-text {
+  display: inline;
+}
+
+.split-line {
+  margin: 10px 0;
+  border-color: rgba(161, 107, 201, 0.16);
+}
+
+#main {
+  margin-left: 280px;
+  padding: 16px;
+  transition: margin-left .5s;
+}
