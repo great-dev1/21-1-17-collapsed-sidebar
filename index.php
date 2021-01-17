@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <!-- <img src="../Capture-1.PNG" style="position: absolute; z-index: 99; top: 0; left: 0; opacity: 0.7"> -->
+  <!-- <img src="../Capture.PNG" style="position: absolute; z-index: 99; top: 0; left: 0; opacity: 0.7"> -->
 
   <div id="mySidebar" class="sidebar">
     <div class="sidebar-header">
@@ -108,19 +108,43 @@
 
       <hr class="split-line">
 
-      <a class="side-link" href="#">
-        <svg class="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M368.558 164.905V27.307A27.307 27.307 0 0 1 395.865 0h204.8a27.307 27.307 0 0 1 27.306 27.307v127.48a374.627 374.627 0 0 1 118.648 64.055l106.55-61.515a27.307 27.307 0 0 1 37.301 9.995l102.4 177.356a27.307 27.307 0 0 1-9.994 37.301L880.75 440.95c4.41 23.005 6.718 46.762 6.718 71.051 0 19.845-1.543 39.335-4.506 58.348l124.136 71.673a27.307 27.307 0 0 1 9.994 37.3l-102.4 177.357a27.307 27.307 0 0 1-37.3 9.995l-120.832-69.769a374.886 374.886 0 0 1-128.588 72.308v127.481A27.307 27.307 0 0 1 600.665 1024h-204.8a27.307 27.307 0 0 1-27.307-27.307V859.095a375.521 375.521 0 0 1-102.414-63.31l-122.777 70.888a27.307 27.307 0 0 1-37.301-9.995L3.666 679.322a27.307 27.307 0 0 1 9.987-37.301l127.113-73.394A378.43 378.43 0 0 1 136.533 512c0-23.702 2.199-46.886 6.397-69.366L37.88 381.98a27.307 27.307 0 0 1-9.994-37.3l102.4-177.357a27.307 27.307 0 0 1 37.3-9.995l108.442 62.6a375.262 375.262 0 0 1 92.53-55.022zM512 696.32c101.8 0 184.32-82.52 184.32-184.32S613.8 327.68 512 327.68 327.68 410.2 327.68 512 410.2 696.32 512 696.32z" />
-        </svg>
-        <span class="link-text">Settings</span>
-      </a>
+      <div class="side-link" href="#">
+        <a class="setting-link" href="#">
+          <svg class="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M368.558 164.905V27.307A27.307 27.307 0 0 1 395.865 0h204.8a27.307 27.307 0 0 1 27.306 27.307v127.48a374.627 374.627 0 0 1 118.648 64.055l106.55-61.515a27.307 27.307 0 0 1 37.301 9.995l102.4 177.356a27.307 27.307 0 0 1-9.994 37.301L880.75 440.95c4.41 23.005 6.718 46.762 6.718 71.051 0 19.845-1.543 39.335-4.506 58.348l124.136 71.673a27.307 27.307 0 0 1 9.994 37.3l-102.4 177.357a27.307 27.307 0 0 1-37.3 9.995l-120.832-69.769a374.886 374.886 0 0 1-128.588 72.308v127.481A27.307 27.307 0 0 1 600.665 1024h-204.8a27.307 27.307 0 0 1-27.307-27.307V859.095a375.521 375.521 0 0 1-102.414-63.31l-122.777 70.888a27.307 27.307 0 0 1-37.301-9.995L3.666 679.322a27.307 27.307 0 0 1 9.987-37.301l127.113-73.394A378.43 378.43 0 0 1 136.533 512c0-23.702 2.199-46.886 6.397-69.366L37.88 381.98a27.307 27.307 0 0 1-9.994-37.3l102.4-177.357a27.307 27.307 0 0 1 37.3-9.995l108.442 62.6a375.262 375.262 0 0 1 92.53-55.022zM512 696.32c101.8 0 184.32-82.52 184.32-184.32S613.8 327.68 512 327.68 327.68 410.2 327.68 512 410.2 696.32 512 696.32z" />
+          </svg>
+          <span class="link-text">Settings</span>
+        </a>
+        <a href="#">
+          <button class="pink-btn">PURCHASE</button>
+        </a>
+      </div>
     </div>
 
     <div class="sidebar-footer">
+      <a href="#">
+        <img class="footer-img" src="assets/img/logo.svg" alt="logo">
+      </a>
+      <div class="d-flex justify-content-between align-items-center">
+        <a class="footer-text" href="#">:copper</a>
 
+        <div class="dropup">
+          <i class="bi bi-three-dots dropdown-toggle" data-toggle="dropdown"></i>
+
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">Gmail & Mobile Apps</a>
+            <a class="dropdown-item" href="#">Support</a>
+            <a class="dropdown-item" href="#">Send Feedback</a>
+            <a class="dropdown-item" href="#">Privacy Policy</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <i class="logout-icon bi bi-box-arrow-in-right"></i>
+              Log Out</a>
+          </div>
+        </div>
+      </div>
     </div>
-
   </div>
 
   <main id="main">
@@ -130,6 +154,12 @@
 
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <!-- My JavaScript -->
   <script src="assets/js/script.js"></script>
